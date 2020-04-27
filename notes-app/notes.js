@@ -8,6 +8,8 @@ const addNote = (title, body) => {
   // const duplicates = notes.filter((element) => title === element.title);
   const duplicate = notes.find((element) => title === element.title);
 
+  debugger
+  
   if (duplicate) {
     console.log('Note title taken!');
     return;
